@@ -1,0 +1,28 @@
+Christian Wiles README CS7641 A1
+
+This assigment was run using Anaconda Python 3.9 on Debian-based Linux distros.
+
+The latest version of Anaconda Individual Edition can be located here:
+https://www.anaconda.com/products/individual
+
+First please clone my repository from GitHub.
+
+https://github.com/cswksu/cs7641a1
+
+This includes my code (two Jupyter Notebooks) and a Conda environment file.
+
+I am providing an Anaconda Environment file that can be used to replicate my development environment and includes libraries such as Keras, Scikit Learn with Intel Extensions, and Numpy. As my datasets are included with Scikit Learn, this also includes my data sets.
+
+After downloading and installing Anaconda, the environment can be created by navigating to the location of the environment file and issuing the following command:
+
+conda env create -f env_actual.yml
+
+This will ask you to confirm download of several libraryies. Once complete, you can now activate the conda environment using the command:
+
+conda activate ml_intel
+
+The Jupyter Notebooks can now be run. Issue the command:
+
+jupyter notebook
+
+from the ml_intel Anaconda environment. Your browser will open to a Jupyter file browser. To run my code, open the files "Supervised Learning Cancer.ipynb" and "Supervised Learning Digits.ipynb." The code can be run by opening the "Kernel" menu in the top toolbar and selecting "Restart and Run All." This can be done in both notebooks. Alternatively. Both notebooks already contain generated plots so if you don't want to spend a few minutes waiting for charts to generate, be my guest.
